@@ -3,20 +3,20 @@
   "faecher": [
     {
       "id": "f1",
-      "name": "Mathematik",
+      "name": "NuT",
       "farbe": "#e8a838",
       "icon": "∑",
       "stapel": [
         {
           "id": "s1",
-          "name": "Grundlagen Analysis",
+          "name": "Das Gehirn",
           "beschreibung": "Ableitungen, Integrale und Grenzwerte",
           "erstellt": "2024-01-15",
           "karten": [
             {
               "id": "k1",
-              "frage": "Was ist die Ableitung von f(x) = x²?",
-              "antwort": "f'(x) = 2x\n\nAllgemeine Regel: Die Ableitung von xⁿ ist n·xⁿ⁻¹",
+              "frage": "Was ist das Gehirn",
+              "antwort": "Das Gehirn ist das Steuerungszentrum des menschlichen Körpers. Es verarbeitet alle Sinneseindrücke, steuert Bewegungen und ermöglicht Denken, Lernen und Emotionen. Als zentrales Organ des Nervensystems besteht es aus Milliarden von Nervenzellen, die über elektrische und chemische Signale miteinander kommunizieren.      ",
               "schwierigkeit": 2,
               "gelernt": false,
               "tags": ["Ableitung", "Grundregel"]
