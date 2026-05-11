@@ -19,39 +19,40 @@
               "antwort": "Das Gehirn ist das Steuerungszentrum des menschlichen Körpers. Es verarbeitet alle Sinneseindrücke, steuert Bewegungen und ermöglicht Denken, Lernen und Emotionen. Als zentrales Organ des Nervensystems besteht es aus Milliarden von Nervenzellen, die über elektrische und chemische Signale miteinander kommunizieren.      ",
               "schwierigkeit": 2,
               "gelernt": false,
-              "tags": ["Ableitung", "Grundregel"]
+              "tags": ["Gehirn", "Grundregel"]
             },
             {
               "id": "k2",
-              "frage": "Wie lautet die Produktregel?",
-              "antwort": "(u·v)' = u'·v + u·v'\n\nBeispiel: (x² · sin x)' = 2x·sin x + x²·cos x",
+              "frage": "Bennene die Teile des Gehirns (Bild)",
+              "antwort": "Zwischenhirn, Balken, Großhirn, Kleinhirn, Mittelhirn, Nachhirn, Rückenmark",
               "schwierigkeit": 3,
               "gelernt": false,
-              "tags": ["Ableitung", "Produktregel"]
+              "tags": ["Gehirn", "Produktregel"]
             },
             {
               "id": "k3",
-              "frage": "Was ist ∫ x dx?",
-              "antwort": "∫ x dx = x²/2 + C\n\nAllgemeine Regel: ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C, für n ≠ -1",
+              "frage": "Erläutere die Leistungen des Großhirns:
+",
+              "antwort": "Das Großhirn ist für das bewusste Denken, Lernen und Erinnern zuständig. Es verarbeitet Sinneseindrücke wie Sehen oder Hören und steuert willkürliche Bewegungen. Außerdem ermöglicht es Sprache, Gefühle und die Persönlichkeit.",
               "schwierigkeit": 2,
               "gelernt": true,
-              "tags": ["Integral", "Grundregel"]
+              "tags": ["Gehirn", "Grundregel"]
             },
             {
               "id": "k4",
-              "frage": "Was beschreibt der Grenzwert lim(x→0) sin(x)/x?",
-              "antwort": "lim(x→0) sin(x)/x = 1\n\nDieser Grenzwert ist fundamental für die Ableitung der Sinusfunktion.",
+              "frage": "Beschreibe die Aufgaben des limbischen System:",
+              "antwort": "Das limbische System ist für die Verarbeitung von Gefühlen zuständig. Es spielt eine wichtige Rolle beim Gedächtnis, beim Lernen und bei der Motivation. Außerdem beeinflusst es Verhalten und steuert emotionale Reaktionen wie Angst oder Freude.",
               "schwierigkeit": 4,
               "gelernt": false,
-              "tags": ["Grenzwert", "Trigonometrie"]
+              "tags": ["Gehirn", "Grundregel"]
             },
             {
               "id": "k5",
-              "frage": "Was ist die Kettenregel?",
-              "antwort": "[f(g(x))]' = f'(g(x)) · g'(x)\n\nBeispiel: [sin(x²)]' = cos(x²) · 2x",
+              "frage": "Ordne den Gehirnteilen ihre jeweiligen Aufgaben zu: Großhirn, Kleinhirn, Mittelhirn, Zwischenhirn und Nachhirn - Koordination, Erlernen von Bewegungsabläufen; Steuerung lebenswichtiger Körperfunktionen, Gefühle; Denken, Sprache, Kreativität; Verschaltung von Sinnesorganen und Großhirn; Steuerung der Atmung und der Herztätigkeit",
+              "antwort": "Großhirn -> Denken, Sprache, Kreativität; Kleinhirn -> Koordination, Erlernen von Bewegungsabläufen; Mittelhirn -> Verschaltung von Sinnesorganen und Großhirn; Zwischenhirn -> Steuerung lebenswichtiger Körperfunktionen, Gefühle; Nachhirn -> Steuerung der Atmung und Herztätigkeit",
               "schwierigkeit": 3,
               "gelernt": true,
-              "tags": ["Ableitung", "Kettenregel"]
+              "tags": ["Gehirn", "Grundregel"]
             }
           ]
         },
