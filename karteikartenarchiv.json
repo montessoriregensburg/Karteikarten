@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "faecher": [
+    {
+      "id": "f1",
+      "name": "Mathematik",
+      "farbe": "#e8a838",
+      "icon": "∑",
+      "stapel": [
+        {
+          "id": "s1",
+          "name": "Grundlagen Analysis",
+          "beschreibung": "Ableitungen, Integrale und Grenzwerte",
+          "erstellt": "2024-01-15",
+          "karten": [
+            {
+              "id": "k1",
+              "frage": "Was ist die Ableitung von f(x) = x²?",
+              "antwort": "f'(x) = 2x\n\nAllgemeine Regel: Die Ableitung von xⁿ ist n·xⁿ⁻¹",
+              "schwierigkeit": 2,
+              "gelernt": false,
+              "tags": ["Ableitung", "Grundregel"]
+            },
+            {
+              "id": "k2",
+              "frage": "Wie lautet die Produktregel?",
+              "antwort": "(u·v)' = u'·v + u·v'\n\nBeispiel: (x² · sin x)' = 2x·sin x + x²·cos x",
+              "schwierigkeit": 3,
+              "gelernt": false,
+              "tags": ["Ableitung", "Produktregel"]
+            },
+            {
+              "id": "k3",
+              "frage": "Was ist ∫ x dx?",
+              "antwort": "∫ x dx = x²/2 + C\n\nAllgemeine Regel: ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C, für n ≠ -1",
+              "schwierigkeit": 2,
+              "gelernt": true,
+              "tags": ["Integral", "Grundregel"]
+            },
+            {
+              "id": "k4",
+              "frage": "Was beschreibt der Grenzwert lim(x→0) sin(x)/x?",
+              "antwort": "lim(x→0) sin(x)/x = 1\n\nDieser Grenzwert ist fundamental für die Ableitung der Sinusfunktion.",
+              "schwierigkeit": 4,
+              "gelernt": false,
+              "tags": ["Grenzwert", "Trigonometrie"]
+            },
+            {
+              "id": "k5",
+              "frage": "Was ist die Kettenregel?",
+              "antwort": "[f(g(x))]' = f'(g(x)) · g'(x)\n\nBeispiel: [sin(x²)]' = cos(x²) · 2x",
+              "schwierigkeit": 3,
+              "gelernt": true,
+              "tags": ["Ableitung", "Kettenregel"]
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "name": "Lineare Algebra",
+          "beschreibung": "Vektoren, Matrizen und lineare Gleichungssysteme",
+          "erstellt": "2024-02-03",
+          "karten": [
+            {
+              "id": "k6",
+              "frage": "Was ist das Skalarprodukt zweier Vektoren a und b?",
+              "antwort": "a·b = a₁b₁ + a₂b₂ + a₃b₃\n\nGeometrisch: a·b = |a|·|b|·cos(θ), wobei θ der Winkel zwischen den Vektoren ist.",
+              "schwierigkeit": 2,
+              "gelernt": false,
+              "tags": ["Vektoren", "Skalarprodukt"]
+            },
+            {
+              "id": "k7",
+              "frage": "Wie berechnet man die Determinante einer 2×2 Matrix?",
+              "antwort": "det(A) = |a b|  = ad - bc\n          |c d|\n\nBeispiel: |2 3| = 2·5 - 3·1 = 7\n          |1 5|",
+              "schwierigkeit": 2,
+              "gelernt": true,
+              "tags": ["Matrizen", "Determinante"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "name": "Biologie",
+      "farbe": "#4caf7d",
+      "icon": "🧬",
+      "stapel": [
+        {
+          "id": "s3",
+          "name": "Zellbiologie",
+          "beschreibung": "Zellstruktur, Organellen und Zellteilung",
+          "erstellt": "2024-01-20",
+          "karten": [
+            {
+              "id": "k8",
+              "frage": "Was ist die Funktion des Mitochondriums?",
+              "antwort": "Das Mitochondrium ist das 'Kraftwerk der Zelle'. Es ist verantwortlich für:\n\n• Zellatmung (ATP-Produktion)\n• Energiegewinnung durch oxidative Phosphorylierung\n• Regulierung des Apoptose-Signals",
+              "schwierigkeit": 2,
+              "gelernt": true,
+              "tags": ["Organellen", "Energiestoffwechsel"]
+            },
+            {
+              "id": "k9",
+              "frage": "Was unterscheidet prokaryotische von eukaryotischen Zellen?",
+              "antwort": "Prokaryoten:\n• Kein Zellkern (DNA frei im Zytoplasma)\n• Keine membranumhüllten Organellen\n• Kleiner (~1-10 µm)\n• z.B. Bakterien\n\nEukaryoten:\n• Echter Zellkern mit Kernhülle\n• Membranumhüllte Organellen\n• Größer (~10-100 µm)\n• z.B. Tier-, Pflanzenzellen",
+              "schwierigkeit": 3,
+              "gelernt": false,
+              "tags": ["Zelltypen", "Grundlagen"]
+            },
+            {
+              "id": "k10",
+              "frage": "Welche Phasen hat die Mitose?",
+              "antwort": "1. Prophase: Chromosomen kondensieren\n2. Metaphase: Chromosomen an Äquatorialplatte\n3. Anaphase: Schwesterchromatiden trennen sich\n4. Telophase: Kernhülle bildet sich neu\n\n→ Ergebnis: 2 genetisch identische Tochterzellen",
+              "schwierigkeit": 3,
+              "gelernt": false,
+              "tags": ["Zellteilung", "Mitose"]
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "name": "Genetik",
+          "beschreibung": "DNA, Gene, Vererbung und Mutationen",
+          "erstellt": "2024-03-10",
+          "karten": [
+            {
+              "id": "k11",
+              "frage": "Was ist der Unterschied zwischen Genotyp und Phänotyp?",
+              "antwort": "Genotyp: Die genetische Information eines Organismus (seine DNA-Sequenz)\n\nPhänotyp: Die sichtbaren/messbaren Merkmale eines Organismus\n\nPhänotyp = Genotyp + Umwelteinflüsse",
+              "schwierigkeit": 2,
+              "gelernt": true,
+              "tags": ["Grundbegriffe", "Vererbung"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "name": "Geschichte",
+      "farbe": "#c0645a",
+      "icon": "⚔",
+      "stapel": [
+        {
+          "id": "s5",
+          "name": "Weimarer Republik",
+          "beschreibung": "Deutschland 1919–1933",
+          "erstellt": "2024-02-14",
+          "karten": [
+            {
+              "id": "k12",
+              "frage": "Wann und wo wurde die Weimarer Republik ausgerufen?",
+              "antwort": "9. November 1918 in Berlin:\n\n• Philipp Scheidemann rief die Republik vom Fenster des Reichstags aus\n• Wenige Stunden später rief Karl Liebknecht die 'Freie Sozialistische Republik' aus\n• Offiziell gegründet durch die Weimarer Verfassung vom 11. August 1919",
+              "schwierigkeit": 2,
+              "gelernt": false,
+              "tags": ["Gründung", "1918"]
+            },
+            {
+              "id": "k13",
+              "frage": "Was waren die Hauptursachen der Hyperinflation 1923?",
+              "antwort": "1. Kriegsschulden aus dem 1. Weltkrieg\n2. Reparationszahlungen laut Versailler Vertrag\n3. Besetzung des Ruhrgebiets durch Frankreich (Jan. 1923)\n4. 'Passiver Widerstand': Regierung finanzierte Streiks durch Gelddrucken\n\n→ November 1923: 1 Dollar = 4,2 Billionen Mark",
+              "schwierigkeit": 3,
+              "gelernt": false,
+              "tags": ["Wirtschaft", "Inflation", "1923"]
+            },
+            {
+              "id": "k14",
+              "frage": "Was war der Dawes-Plan (1924)?",
+              "antwort": "Amerikanischer Vermittlungsplan zur Lösung der Reparationsfrage:\n\n• Gestaffelte, leistbare Reparationszahlungen für Deutschland\n• US-Anleihen für Deutschland (800 Mio. Goldmark)\n• Führte zur 'Goldenen Zwanziger' (1924–1929)\n• Ermöglichte wirtschaftliche Stabilisierung",
+              "schwierigkeit": 3,
+              "gelernt": true,
+              "tags": ["Wirtschaft", "Außenpolitik", "USA"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "name": "Englisch",
+      "farbe": "#5b8fcf",
+      "icon": "✦",
+      "stapel": [
+        {
+          "id": "s6",
+          "name": "Advanced Vocabulary",
+          "beschreibung": "C1/C2 Wortschatz für Prüfungen",
+          "erstellt": "2024-01-08",
+          "karten": [
+            {
+              "id": "k15",
+              "frage": "What does 'ubiquitous' mean?",
+              "antwort": "ubiquitous (adj.): present, appearing, or found everywhere\n\nExample: 'Smartphones have become ubiquitous in modern society.'\n\nSynonyms: omnipresent, pervasive, universal",
+              "schwierigkeit": 2,
+              "gelernt": true,
+              "tags": ["Adjektive", "C1"]
+            },
+            {
+              "id": "k16",
+              "frage": "What does 'perfidious' mean?",
+              "antwort": "perfidious (adj.): deceitful and untrustworthy; guilty of betrayal\n\nExample: 'The perfidious advisor betrayed the king's secrets.'\n\nSynonyms: treacherous, duplicitous, faithless\nAntonym: loyal, faithful",
+              "schwierigkeit": 4,
+              "gelernt": false,
+              "tags": ["Adjektive", "C2"]
+            },
+            {
+              "id": "k17",
+              "frage": "Erkläre den Unterschied: 'affect' vs. 'effect'",
+              "antwort": "AFFECT (Verb): to have an influence on something\n→ 'The rain affected our plans.'\n\nEFFECT (Noun): the result or outcome\n→ 'The effect of the rain was a cancelled picnic.'\n\nMerkhilfe: A for Action (Verb), E for End-result (Noun)",
+              "schwierigkeit": 2,
+              "gelernt": true,
+              "tags": ["Grammatik", "Häufige Fehler"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
